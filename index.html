@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cya 506 - Oficial</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background: linear-gradient(135deg, #120018, #3b0066);
+    color:white;
+    overflow-x:hidden;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)),
+    url('https://images.unsplash.com/photo-1497032628192-86f99bcd76bc');
+    background-size:cover;
+    background-position:center;
+}
+
+h1{
+    font-family:'Playfair Display', serif;
+    font-size:4rem;
+    color:#e0b3ff;
+    text-shadow:0 0 30px #a64dff;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+    color:#f0d9ff;
+}
+
+.social-buttons{
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.social-buttons a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:14px 28px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:600;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.2);
+    color:white;
+    transition:0.4s ease;
+    font-size:1rem;
+}
+
+.social-buttons a i{
+    font-size:1.3rem;
+}
+
+.social-buttons a:hover{
+    transform:translateY(-5px) scale(1.05);
+    box-shadow:0 0 20px #b266ff;
+    background: rgba(178,102,255,0.3);
+}
+
+section{
+    padding:100px 20px;
+    text-align:center;
+}
+
+.section-title{
+    font-family:'Playfair Display', serif;
+    font-size:2.5rem;
+    margin-bottom:30px;
+    color:#d9b3ff;
+}
+
+.bio{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    color:#f2e6ff;
+}
+
+iframe{
+    border-radius:15px;
+    width:100%;
+    max-width:900px;
+}
+
+footer{
+    padding:30px;
+    text-align:center;
+    background:#100018;
+    color:#a64dff;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Cya 506</h1>
+    <p>Romántica • Sensual • Auténtica</p>
+
+    <div class="social-buttons">
+        <a href="https://open.spotify.com/artist/4YYl6h2cDvTPUrPkkUm1t8" target="_blank">
+            <i class="fab fa-spotify"></i> Spotify
+        </a>
+
+        <a href="https://youtube.com/@cya_506" target="_blank">
+            <i class="fab fa-youtube"></i> YouTube
+        </a>
+
+        <a href="https://www.instagram.com/cya_506" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+    </div>
+</header>
+
+<section>
+    <h2 class="section-title">Sobre Cya</h2>
+    <p class="bio">
+        Cya 506 es una artista costarricense que fusiona romanticismo y sensualidad 
+        en cada melodía. Su voz transmite emoción pura, creando una conexión íntima 
+        y poderosa con su audiencia.
+    </p>
+</section>
+
+<section>
+    <h2 class="section-title">Video Oficial</h2>
+    <iframe height="450"
+    src="https://www.youtube.com/embed?listType=user_uploads&list=cya_506"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+</section>
+
+<section>
+    <h2 class="section-title">Escúchame</h2>
+    <iframe height="380"
+    src="https://open.spotify.com/embed/artist/4YYl6h2cDvTPUrPkkUm1t8"
+    frameborder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+</section>
+
+<footer>
+    © 2026 Cya 506 - Página Oficial
+</footer>
+
+</body>
+</html>
